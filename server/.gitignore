@@ -1,0 +1,20 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore environment files
+*.env
+
+# Ignore logs
+*.log
+
+# Ignore build and output directories
+client/.next/
+client/out/
+client/build/
+server/build/
+dist/
+
+# Optional: macOS and editor/system junk
+.DS_Store
+.vscode/

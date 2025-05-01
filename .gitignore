@@ -1,0 +1,8 @@
+client/node_modules/
+server/node_modules/
+*.log
+*.env
+dist/
+build/
+.next/
+out/

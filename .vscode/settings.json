@@ -1,0 +1,12 @@
+{
+    "css.validate": false,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "tailwindCSS.experimental.classRegex": [
+      "tw`([^`]*)", // for tailwind-styled-components or tw macro
+      "tw=\"([^\"]*)", // tailwind classes in attributes
+      "className=\"([^\"]*)"
+    ]
+  }
+  
