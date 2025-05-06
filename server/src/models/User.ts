@@ -5,6 +5,7 @@ interface IUser extends Document {
   email: string;
   mobile:number;
   password: string;
+  fcm_token:string;
   role: 'admin' | 'user';
 }
 
@@ -13,6 +14,7 @@ const userSchema = new Schema<IUser>({
   email: { type: String, required: true, unique: true },
   mobile: { type: Number, required: true },
   password: { type: String, required: true },
+  fcm_token: { type: String, required: true },
   role: { type: String, enum: ['admin', 'user'], required: true },
 });
 
