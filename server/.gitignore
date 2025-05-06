@@ -4,6 +4,8 @@ server/node_modules/
 
 # Ignore environment files
 *.env
+fir-fbc76-firebase-adminsdk-fbsvc-2c5318ddf7.json
+
 
 # Ignore logs
 *.log
